@@ -2,9 +2,9 @@ name: Maven CI/CD
 
 on:
  push:
-    branches: [ main ]
+    branches: [ github-action-maven-example-start-master ]
   pull_request:
-    branches: [ main ]
+    branches: [ github-action-maven-example-start-master ]
 
 jobs:
   build_and_test:
